@@ -89,9 +89,11 @@ h2{
   text-align: left;
   margin: 50px;
 }
-/* .g-home-ul .g-home-list div span{
+.g-home-ul .g-home-list div span{
+  text-decoration: underline;
+  font-size: 25px;
 
-} */
+}
 .g-join{
   background-image: url(./image/gift-join.png);
   background-position: center center;
@@ -166,10 +168,14 @@ h2{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: auto;
 }
 .g-last p{
   line-height: 2.5;
+  margin: 0;
+}
+.g-last p span{
+  text-decoration: underline;
 }
 .g-last-button{
   height: 150px;
