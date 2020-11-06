@@ -36,15 +36,13 @@ body{
   transform: translate(-50%,-50%);
   margin:0;
   padding:0;
+  width: 100%;
 }
 h1{
   font-size: 100px;
   text-shadow: white 3px 3px 10px, white -3px 3px 10px,
   white 3px -3px 10px, white -3px -3px 10px;
   font-family: 'Yu Mincho';
-}
-.g-header-title{
-  width: 100%;
 }
 .g-header-title p{
   font-size: 3vw;
@@ -190,6 +188,21 @@ h2{
 }
 /* 【タブレット以下】 */
 @media screen and (max-width: 1024px) {
+  .g-header{
+    background-image: url(./image/giftsp1.png);
+    height: 500px;
+  }
+  .g-header-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    width: 100%;
+  }
   h1{
     font-size: 10vw;
   }
@@ -199,6 +212,7 @@ h2{
 }
 /* 【スマートフォン以下】 */
 @media screen and (max-width: 896px) { 
+  
   .g-header-title p{
     font-size: 3.5vw;
   }  
