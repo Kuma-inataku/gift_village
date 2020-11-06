@@ -41,6 +41,7 @@ h1{
   font-size: 100px;
   text-shadow: white 3px 3px 10px, white -3px 3px 10px,
   white 3px -3px 10px, white -3px -3px 10px;
+  font-family: 'Yu Mincho';
 }
 .g-header-title{
   width: 100%;
