@@ -60,6 +60,7 @@ h2{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* position: relative; */
 }
 .g-home .h-sns{
   margin-bottom:50px ;
@@ -204,6 +205,14 @@ h2{
   }
   .g-home{
     background:white;
+    /* position: relative; */
+  }
+  .g-home-container{
+    /* position: absolute; */
+    background: white;
+    /* height: 1500px; */
+    /* left: 50%; */
+    top: -10%;
   }  
   .g-join{
     background-image: url(./image/giftsp2.png);
