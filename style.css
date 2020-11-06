@@ -234,6 +234,10 @@ h2{
     font-size: 20px;
     margin-top: 80px;
   }
+  .g-last{
+    background-image: url(./image/giftsp3.png;
+  }
+  
 }
 /* 【スマートフォン以下】 */
 @media screen and (max-width: 896px) { 
