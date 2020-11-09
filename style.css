@@ -179,24 +179,24 @@ h2{
   padding:0;
   width: 180px;
 }
-/* .g-last{
+.g-last{
   background-image: url(./image/gift-last.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-} */
-.g-last{
+}
+/* .g-last{
   background-image: url(./image/giftsp3.png);
   background-size: cover;
   width: 100%;
   height: 0;
   padding-top: 113%;
-}
+} */
 
 .g-last-content{
   padding-bottom: 100px;
-  margin-top: calc(-102% + 18%);
+  /* margin-top: calc(-102% + 18%); */
 }
 .g-last p{
   line-height: 2.5;
@@ -259,6 +259,10 @@ h2{
     height: 0;
     padding-top: 113%;
   }
+  .g-last-content{
+    padding-bottom: 100px;
+    margin-top: calc(-115% + 18%);
+  } 
 }
 /* 【スマートフォン以下】 */
 @media screen and (max-width: 768px) { 
@@ -315,8 +319,16 @@ h2{
     height: 300px;
   }
   .g-last{
-    height: auto;
+    background-image: url(./image/giftsp3.png);
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top: 113%;
   }
+  .g-last-content{
+    /* padding-bottom: 100px; */
+    margin-top: calc(-115% + 18%);
+  }  
   .g-last p{
     font-size: 2.5vw;
     margin: 0;
