@@ -98,7 +98,6 @@ h2{
 .g-home-ul .g-home-list div span{
   text-decoration: underline;
   font-size: 25px;
-
 }
 .g-join{
   background-image: url(./image/gift-join.png);
@@ -180,15 +179,24 @@ h2{
   padding:0;
   width: 180px;
 }
-.g-last{
+/* .g-last{
   background-image: url(./image/gift-last.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+} */
+.g-last{
+  background-image: url(./image/giftsp3.png);
+  background-size: cover;
+  width: 100%;
+  height: 0;
+  padding-top: 113%;
 }
+
 .g-last-content{
   padding-bottom: 100px;
+  margin-top: calc(-102% + 18%);
 }
 .g-last p{
   line-height: 2.5;
@@ -208,6 +216,8 @@ h2{
 @media screen and (max-width: 1024px) {
   .g-header{
     background-image: url(./image/giftsp1.png);
+    max-width: 100%;
+    width: 100%;
     height: 550px;
     padding-top: 100px;
   }
@@ -230,16 +240,24 @@ h2{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 100%;
+    width: 100%;
   }
   .g-join{
-    background-image: url(./image/gift-join.png);
+    background-image: url(./image/giftsp2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    /* height: auto; */
+    max-width: 100%;
+    width: 100%;
   }
   .g-last{
     background-image: url(./image/giftsp3.png);
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top: 113%;
   }
 }
 /* 【スマートフォン以下】 */
