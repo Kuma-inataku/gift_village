@@ -108,7 +108,10 @@ h2{
   height: 500px;
   color: #805C5C;
 }
-.g-join span{
+.g-join .g-join-cost{
+  font-size: 25px;
+}
+.g-join .unmatch{
   text-decoration: underline;
 }
 .join-button{
@@ -205,7 +208,8 @@ h2{
 @media screen and (max-width: 1024px) {
   .g-header{
     background-image: url(./image/giftsp1.png);
-    /* height: 75 0px; */
+    height: 550px;
+    padding-top: 100px;
   }
   .g-header-title{
     position: absolute;
@@ -226,33 +230,20 @@ h2{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-  }  
+  }
   .g-join{
-    background-image: url(./image/giftsp2.png);
+    background-image: url(./image/gift-join.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px 0;
-  }
-  .join-h2{
-    margin-top: 100px;
-  }
-  .join-button{
-    width: 300px;
-    height: 50px;
-    background:#E79D7A ;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    margin-top: 80px;
+    height: 500px;
   }
   .g-last{
     background-image: url(./image/giftsp3.png);
   }
 }
 /* 【スマートフォン以下】 */
-@media screen and (max-width: 896px) { 
+@media screen and (max-width: 768px) { 
   
   .g-header-title p{
     font-size: 3.5vw;
@@ -263,6 +254,9 @@ h2{
   .g-home .h-sns a img{
     max-width: 100px;
   }
+  .g-join .g-join-cost{
+    font-size: 3.5vw;
+  }  
   .g-join p{
     font-size: 2.5vw;
   }
