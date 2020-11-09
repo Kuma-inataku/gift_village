@@ -6,6 +6,7 @@ body{
   font-size: 20px;
   text-align: center;
   color: #BE9090;
+  font-family:'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 .g-header{
   background-image: url(./image/gift-top.png);
@@ -51,9 +52,10 @@ h1{
 }
 h2{
   padding-top: 50px;
-  margin-bottom:50px;
-  background: linear-gradient(transparent 70%, #F6E0E2 70%);
+  margin-bottom:30px;
+  background: linear-gradient(transparent 80%, #F6E0E2 80%);
   display: inline-block;
+  font-family: 'Yu Mincho';
 }
 .g-home{
   background-image: url(./image/gift-home.png);
@@ -78,12 +80,16 @@ h2{
   max-width: 1000px; */
 }
 .g-home-ul .g-home-list{
-  border: #C19491 3px solid;
+  border: #C19491 5px solid;
+  border-radius: 10px;
+  box-shadow: 0px 8px 8px #ccc;
   max-width: 1000px;
   width: 100%;
   text-align: center;
   display: inline-block; 
   margin-bottom: 50px;
+  background: #fff;
+
 }
 .g-home-ul .g-home-list div{
   text-align: left;
@@ -99,19 +105,22 @@ h2{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 550px;
+  height: 500px;
+  color: #805C5C;
 }
 .g-join span{
   text-decoration: underline;
 }
 .join-button{
   width: 300px;
-  height: 50px;
+  height: 60px;
   background:#E79D7A ;
   color: white;
   border: none;
   border-radius: 5px;
   font-size: 20px;
+  margin-top: 30px;
+  cursor: pointer;
 }
 .g-target{
   height: auto;
@@ -150,6 +159,8 @@ h2{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color:rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
   width: 270px;
   height: 275px;
   position: relative;
@@ -172,6 +183,9 @@ h2{
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+}
+.g-last-content{
+  padding-bottom: 100px;
 }
 .g-last p{
   line-height: 2.5;
