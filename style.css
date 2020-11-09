@@ -208,11 +208,10 @@ h2{
     /* position: relative; */
   }
   .g-home-container{
-    /* position: absolute; */
-    background: white;
-    /* height: 1500px; */
-    /* left: 50%; */
-    top: -10%;
+    background-image: url(./image/giftsp4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }  
   .g-join{
     background-image: url(./image/giftsp2.png);
@@ -235,9 +234,8 @@ h2{
     margin-top: 80px;
   }
   .g-last{
-    background-image: url(./image/giftsp3.png;
+    background-image: url(./image/giftsp3.png);
   }
-  
 }
 /* 【スマートフォン以下】 */
 @media screen and (max-width: 896px) { 
